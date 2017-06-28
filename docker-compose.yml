@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  masstransitondotnetcore:
+    image: masstransitondotnetcore
+    build:
+      context: ./MasstransitOnDotNetCore
+      dockerfile: Dockerfile
